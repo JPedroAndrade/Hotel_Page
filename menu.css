@@ -1,19 +1,10 @@
 
-*{
-    margin: 0;
-    padding: 0;
-      
-}
-
-
 header{
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 
-body{
-    font-family: 'Work Sans', sans-serif;
-}
 .container{
     padding-left: 5%;
     padding-right: 5%;
