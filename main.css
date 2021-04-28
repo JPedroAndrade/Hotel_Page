@@ -57,10 +57,17 @@
     margin-bottom: 100px;
 }
 
+.benefits-item{
+    height: 150px;
+    width: 150px;
+    background-color: black;
+}
+
 
 
 @media(min-width:600px){ 
     .rooms-list{
+        overflow-x: hidden;
         display: flex;
         justify-content: space-evenly;
         flex-wrap: wrap;
