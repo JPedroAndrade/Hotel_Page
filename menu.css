@@ -1,25 +1,26 @@
-
-header{
+.header{
     position: sticky;
     top: 0;
     z-index: 1;
+    background-color: transparent;
 }
 
-.container{
-    padding-left: 5%;
-    padding-right: 5%;
-    
+.headersecond{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: black;
 }
+
 
 .menu{
-    background-color: black;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 2rem 0rem;
-    box-sizing: border-box;
-    
+    box-sizing: border-box; 
 }
+
 
 .logo{
     padding-left: 2rem;
@@ -51,13 +52,13 @@ header{
 
 #check{
     display: none;
-    
 }
 
 
 
 @media(max-width: 590px){
     .menu{
+        background-color: black;
         display: flex;
         justify-content: space-between;
         
