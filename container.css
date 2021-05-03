@@ -1,7 +1,4 @@
-.container{
-    padding-left: 5%;
-    padding-right: 5%; 
-}
+
 
 
 @media (min-width: 1066px)
@@ -13,7 +10,7 @@
 
 }
 
-@media (min-width: 1440px){
+@media (min-width: 1640px){
     .container{
         padding-left: calc((100% - 1200px)/2);
         padding-right: calc((100% - 1200px)/2);
