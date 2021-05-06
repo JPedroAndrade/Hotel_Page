@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="menu.css">
     <link rel="stylesheet" href="container.css">
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="footer.css">k
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
@@ -16,7 +17,7 @@
     
 </head>
 <body>
-    <header class="header">
+    <header class="header ">
         <nav class="menu">
 
             <a href="#" class="logo">Logo</a>
@@ -117,15 +118,55 @@
     </main>
 
     <footer class="footer container">
-        <a href="#">Logo</a>
-        <section class="information">
+
+        <section class="footer-informations informations-one">
+            <a href="#" class="footer-logo">Logo</a>
+            <address class="footer-address">
+                <p>Reservas: <a href="tel:(00) 0000 0000">(00) 0000-0000</a>
+
+                Telefone: <a href="tel:+00 00 0000 0000">+00 00 0000 0000</a><br>
+
+                E-mail: <a href = "mailto: email@mail.com">email@mail.com</a><br>
+
+                Endereço: Avenida Atlântica 1702, Rio de Janeiro CEP 22021 001, Brasil</p>
+            </address>
+            <ul class="social-medias">
+                <li class="social-medias-item"></li>
+                <li class="social-medias-item"></li>
+                <li class="social-medias-item"></li>
+
+            </ul>
+        </section>
+        
+        <section class="footer-informations informations-two">
             <p class="information-item"><a href="#">Link1</a></p>
             <p class="information-item"><a href="#">Link2</a></p>
             <p class="information-item"><a href="#">Link3</a></p>
+            <p class="information-item"><a href="#">Link4</a></p>
+            <p class="information-item"><a href="#">Link5</a></p>
+            <p class="information-item"><a href="#">Link6</a></p>
         </section>
 
-        <section class="footer-newsletter">
+        <section class="footer-informations informations-three">
+            <p class="information-item"><a href="#">LinkA</a></p>
+            <p class="information-item"><a href="#">LinkB</a></p>
+            <p class="information-item"><a href="#">LinkC</a></p>
+            <p class="information-item"><a href="#">LinkD</a></p>
+            <p class="information-item"><a href="#">LinkE</a></p>
+            <p class="information-item"><a href="#">LinkF</a></p>
             
+        </section>
+
+        <section class="footer-informations footer-newsletter">
+            <h1 class="newsletter-title">Receba Promoções e Pacotes</h1>
+            <form action="#" method="get" class="form-newsletter">
+
+                <label for="form-newsletter__label" class="form-newsletter__label">Seu email: </label>
+
+                <input id="email-newsletter" name="email-newsletter" type="email" placeholder="Digite seu email." autocomplete="email" class="form-newsletter__area">
+
+                <button type="submit" class="form-newsletter__botao">OK</button>
+            </form>
         </section>
 
 
