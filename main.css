@@ -2,12 +2,34 @@ body{
     margin-top: -2rem;
 }
 .photo{
-   
+    background-image: url(imagens/imagens/pexels-pixabay-221457.jpg);
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
     background-color: rgb(140, 139, 139);
     width: 100%;
     height: 50vh;
+    position: relative;
 }
 
+.photo-logo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 30%;
+    height: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+    background-color: black;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}
 /*-----------------Rooms Section-----------------*/
 
 .rooms-title{
@@ -25,7 +47,7 @@ body{
     height: .2rem;
     background-color: #000000;
     position: absolute;
-    top: 100%;
+    top: 110%;
     left: 50%;
     transform: translateX(-50%);
         -webkit-transform: translateX(-50%);
@@ -42,6 +64,7 @@ body{
     overflow-y: hidden;
     white-space: nowrap;
     margin-top: 1rem;
+    margin-left: 1rem;
     
 }
 
@@ -72,6 +95,9 @@ body{
     display: inline-block; 
     box-sizing: border-box;
         -webkit-box-sizing: border-box; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .room-subtitle{
@@ -85,12 +111,38 @@ body{
     margin-bottom: 100px;
 }
 
+.room-one{
+    background-image: url(imagens/imagens/ralph-ravi-kayden-FqqiAvJejto-unsplash.jpg);
+}
+
+.room-two{
+    background-image: url(imagens/imagens/visualsofdana-T5pL6ciEn-I-unsplash.jpg)
+}
+
+.room-three{
+    background-image: url(imagens/imagens/paul-postema-mr0Dp231IEw-unsplash.jpg)
+}
+
+.room-four{
+    background-image: url(imagens/imagens/tyler-schaefer-Lrce4YHmybc-unsplash.jpg)
+
+}
+
+.room-five{
+
+    background-image: url(imagens/imagens/francesca-tosolini-hCU4fimRW-c-unsplash.jpg)
+}
+
+.room-six{
+
+    background-image: url(imagens/imagens/francesca-tosolini-w1RE0lBbREo-unsplash.jpg)
+}
 /*-----------------benefits Section-----------------*/
 
 .benefits{
     padding: 0 auto;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
 }
 .benefits-title{
 
@@ -125,6 +177,9 @@ body{
     width: 150px;
     background-color: black;
     border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     opacity: 50%;
         -webkit-transition: opacity 0.5s;
         -o-transition: opacity 0.5s;
@@ -145,6 +200,57 @@ body{
     transform: translateX(-50%);
     text-align: center;
     margin-bottom: 100px;
+}
+
+.benefit-one svg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    fill: white;
+    transform: translate(-50%,-50%);
+    width: 50%;
+    height: 50%;
+
+   
+}                
+.benefit-two svg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    fill: white;
+    transform: translate(-50%,-50%);
+    width: 50%;
+    height: 50%;
+}
+.benefit-three svg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    fill: white;
+    transform: translate(-50%,-50%);
+    width: 50%;
+    height: 50%;
+
+}
+.benefit-four svg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    fill: white;
+    transform: translate(-50%,-50%);
+    width: 50%;
+    height: 50%;
+
+}
+.benefit-five svg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    fill: white;
+    transform: translate(-50%,-50%);
+    width: 50%;
+    height: 50%;
+
 }
 
 /*-----------------map Section-----------------*/
