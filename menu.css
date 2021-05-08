@@ -6,7 +6,8 @@
     z-index: 1;
     background-color: transparent;
     -webkit-transition: background-color 1s;
-    transition: background-color 1s;
+    transition: background-color 0.5s;
+    
 }
 
 .headersecond{
@@ -14,11 +15,13 @@
     position: fixed;
     top: 0;
     z-index: 1;
-    background-color: black;
+    background-color: white;
+    
 }
 
 
 .menu{
+    
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -39,7 +42,7 @@
 
 .menu a{
     text-decoration: none; 
-    color: white; 
+    color:  black;
 }
 
 
@@ -48,9 +51,32 @@
     margin-right: 1.4rem;
 }
 
+
+
 .menu__links a{
     padding: .8rem 1rem;
    
+}
+
+.menu-item{
+    position: relative;
+    transition: content ease-in 2s;
+}
+
+.fa-bars{
+    color: black;
+}
+.menu-item:hover::before{
+    content: "";
+    position: absolute;
+    width: 40%;
+    height: .2rem;
+    background-color: #000000;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+        
+    
 }
 
 .checkbtn{
@@ -69,7 +95,7 @@
 
 @media(max-width: 590px){
     .menu{
-        background-color: black;
+        background-color: white;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
@@ -84,7 +110,9 @@
         margin-right: 2rem;
         
     }
-
+    .logo{
+        color: white;
+    }
    
     .menu__links{
         display: inline;
