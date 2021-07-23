@@ -206,7 +206,7 @@ body{
 .benefits-subtitle{
     opacity: 100%;
     position: absolute;
-    top: 100%;
+    top: 110%;
     left: 50%;
         -webkit-transform: translateX(-50%);
         -ms-transform: translateX(-50%);
