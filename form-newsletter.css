@@ -28,9 +28,6 @@
     border: 2px solid black;
     border-radius: 7px;
     padding: 10px;
-    
-    
-    
 }
 
 .form-newsletter__label{
@@ -57,13 +54,13 @@
 @media(min-width:	640px)	and	(max-width:	1200px)	{
 
     .newsletter-title::before{
+        
         width: 60%;
         top: 110%;
 
     }
 
     .form-newsletter{
-
         box-sizing: border-box;
         margin-top: 1.5rem;
         display: inline-block;
@@ -71,8 +68,7 @@
         align-items: center;
         border-radius: 7px;
         padding: 10px x;
-        
-          
+            
     }
 
 }
