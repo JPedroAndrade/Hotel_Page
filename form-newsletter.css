@@ -62,28 +62,45 @@
 
     }
 
+    .form-newsletter{
+
+        box-sizing: border-box;
+        margin-top: 1.5rem;
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        border-radius: 7px;
+        padding: 10px x;
+        
+          
+    }
+
 }
 
-    @media(min-width: 320px)	and	(max-width:	768px)	{
+    @media(min-width: 320px)	and	(max-width:	640px)	{
        
 
         .form-newsletter{
 
             box-sizing: border-box;
             margin-top: 1.5rem;
-            display: flex;
+            display: inline-block;
             justify-content: center;
             align-items: center;
-            
             border-radius: 7px;
             padding: 10px;
-            padding-left: 30px;
-            padding-right: 30px;
+            
             width: 100%;
             
             
             
             
+        }
+
+        .form-newsletter__area{
+            border: 1px solid black;
+            padding: .5rem 2rem;
+            border-radius: 4px;
         }
 
         .form-newsletter__botao{
